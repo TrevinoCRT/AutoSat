@@ -1,0 +1,15 @@
+Working/
+Pre-existingCoreScripts/
+myenv/
+image.fits
+wearther.gif
+weather.jpg
+weather.png
+tleplan.txt
+cache.json
+access_log.txt
+api_interaction_log.txt
+telescope_automation_log.txt
+noradid.txt
+.env
+cache.json

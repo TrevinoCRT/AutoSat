@@ -1,0 +1,4 @@
+requests
+pytz
+logging
+pypiwin32
