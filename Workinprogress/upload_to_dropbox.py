@@ -30,7 +30,7 @@ def upload_latest_observation(access_token, base_folder, dropbox_destination):
         print("No observation folders found.")
 
 if __name__ == "__main__":
-    ACCESS_TOKEN = 'sl.BrUW1-OuoV5Oi0JMSew0hFpzLQoG_RX-UYGisdQAYoo8v6QnYkLQmTZOLt2IaKfiA5rPSCi_7Wh-yJo6TAOr1LjNQAY_zf8xbBlXs69snaFVosm07QSfEO4y666xsR9f9xRj7Bi_l38o'  # Replace with your token
+    ACCESS_TOKEN = ''  # Replace with your token
     BASE_FOLDER = 'C:/SatelliteData'
     DROPBOX_DESTINATION = '/Privateer'  # Replace with your Dropbox folder
 
