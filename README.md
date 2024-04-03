@@ -61,7 +61,15 @@ The New Mexico Skies Command Center provides a user-friendly interface and autom
 
 - Run `python run_it_up.py`.
 - Enter your first name when prompted.
-- The GUI will display various buttons and options for managing satellite observations.
+- The GUI will display various buttons and options for managing satellite observations:
+  - **TLE Updater**: Fetches the visible overhead passes for selected satellites using the N2YO API. It processes a list of NORAD satellite IDs and calculates their observation times.
+  - **See Observation Schedule**: Opens the observation schedule file (`tleplan.txt`) to review planned observations.
+  - **Run Observation(s)**: Initiates the central command script for telescope, dome, and tracking/imaging operations.
+  - **Start Automated Cycle**: Initiates a sequential execution of three primary observation scripts, including TLE updater, observation script execution, and observatory status check.
+  - **Schedule Automated Observation Cycle**: Allows scheduling of automated observation cycles over multiple days at specified times.
+  - **Skip TLE Updater Checkbox**: Provides an option to skip the TLE updater part of the automated observation cycle.
+- The GUI uses a modern NASA-style color scheme with a light grey background, dark grey buttons, and white text for readability.
+- A special green color is used for the 'Start Automated Cycle' button to distinguish it from other operations.
 
 ### API Interaction Script (api_interaction.py)
 
